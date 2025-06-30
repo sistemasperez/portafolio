@@ -150,7 +150,7 @@ function App() {
       title: 'Geo X Ray – Sistema de Monitoreo Geoespacial con Inteligencia Artificial',
       category: 'Web Development',
       description: ' Plataforma avanzada de monitoreo geoespacial que utiliza inteligencia artificial para analizar y visualizar datos en tiempo real. Permite la hacer preguntas en Lenguaje natural y obtener respuestas de la distribución geografica de Negocios o lugares.',
-      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751311209/geoXRay_vxsmwc.png',
       tech: ['Python', 'FastApi', 'OpenAi', 'Autogen', 'Azure', 'ArangoDb', 'NetworkX'],
       year: '2025',
       type: 'web'
@@ -386,10 +386,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              What I Do
+              Que puedo hacer por ti?
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-              Specializing in creating exceptional digital experiences across multiple platforms and technologies
+              Transformamos ideas en experiencias Digitales Increibles en múltiples plataformas y tecnologías
             </p>
           </div>
 
@@ -440,10 +440,10 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              About Me
+              Sobre mi
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Passionate developer with a love for creating innovative digital solutions
+             Soy un desarrollador apasionado por crear soluciones digitales innovadoras
             </p>
           </div>
 
@@ -455,33 +455,29 @@ function App() {
             <div className="relative bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-200/50 dark:border-gray-700/50">
               <div className="prose prose-lg max-w-none text-gray-600 dark:text-gray-300">
                 <p className="text-lg leading-relaxed mb-6 first-letter:text-5xl first-letter:font-bold first-letter:text-purple-600 dark:first-letter:text-purple-400 first-letter:mr-2 first-letter:float-left first-letter:leading-none">
-                  With years of experience in the digital landscape, I've had the privilege of working on diverse projects 
-                  that span web development, game design, and mobile applications. My journey began with a curiosity about 
-                  how things work and has evolved into a passion for creating experiences that make a difference.
+                A lo largo de los años, he tenido la oportunidad de participar en proyectos muy diversos, que abarcan desde el desarrollo web hasta el diseño de videojuegos y aplicaciones móviles. Mi camino comenzó con una curiosidad por entender cómo funcionan las cosas, y con el tiempo se transformó en una verdadera pasión por construir experiencias que generen impacto.
                 </p>
                 
                 <div className="grid md:grid-cols-2 gap-8 my-8">
                   <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 rounded-2xl p-6 border border-purple-200/50 dark:border-purple-700/50">
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-3">Philosophy</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-3">Filosofía</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      I believe in the power of clean code, thoughtful design, and user-centered development. Every project 
-                      is an opportunity to create something meaningful.
+                    Creo firmemente en el poder de un código limpio, un diseño bien pensado y un desarrollo centrado en el usuario. Para mí, cada proyecto representa una oportunidad para crear algo significativo y funcional.
+
+
                     </p>
                   </div>
                   
                   <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-2xl p-6 border border-blue-200/50 dark:border-blue-700/50">
-                    <h4 className="font-bold text-gray-900 dark:text-white mb-3">Approach</h4>
+                    <h4 className="font-bold text-gray-900 dark:text-white mb-3">Mi enfoque</h4>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Whether building a website, designing a game, or developing a mobile app, I approach each project 
-                      with attention to detail and commitment to excellence.
+                    Ya sea diseñando un sitio web, desarrollando un juego o creando una app móvil, afronto cada desafío con atención al detalle y un fuerte compromiso con la calidad.
                     </p>
                   </div>
                 </div>
                 
                 <p className="text-lg leading-relaxed">
-                  When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                  or sharing knowledge with the developer community. I'm always excited to take on new challenges and 
-                  collaborate on innovative projects that push the boundaries of what's possible.
+                Cuando no estoy programando, me gusta explorar nuevas tecnologías, contribuir a proyectos de código abierto y compartir conocimientos con la comunidad de desarrolladores. Siempre estoy en busca de nuevos retos y colaboraciones que me permitan seguir aprendiendo y llevar la innovación un paso más allá.
                 </p>
               </div>
             </div>
@@ -493,10 +489,10 @@ function App() {
       <section id="contact" className="py-20 bg-gradient-to-br from-gray-50/80 to-blue-50/80 dark:from-gray-800/80 dark:to-slate-800/80 backdrop-blur-sm transition-all duration-300">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Let's Work Together
+            Vamos a trabajar juntos!
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-12">
-            Ready to bring your ideas to life? I'd love to hear about your project.
+              ¿Listo para hacer realidad tus ideas? Me encantaría conocer tu proyecto.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
@@ -505,16 +501,15 @@ function App() {
               className="flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-xl font-medium transition-all duration-200 group shadow-lg shadow-purple-500/25 hover:shadow-xl hover:shadow-purple-500/30 hover:scale-105"
             >
               <Mail size={20} />
-              Send me an email
+              Enviame un email
               <ExternalLink size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-200" />
             </a>
           </div>
 
           <div className="flex justify-center space-x-6">
             {[
-              { icon: Github, href: 'https://github.com/juananibalperez', label: 'GitHub' },
-              { icon: Linkedin, href: 'https://linkedin.com/in/juananibalperez', label: 'LinkedIn' },
-              { icon: Twitter, href: 'https://twitter.com/juananibalperez', label: 'Twitter' }
+              { icon: Github, href: 'https://github.com/sistemasperez', label: 'GitHub' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/anibal-perez-guzman-3300b629/', label: 'LinkedIn' },
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -535,7 +530,7 @@ function App() {
       <footer className="py-8 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-t border-gray-200/50 dark:border-gray-700/50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600 dark:text-gray-300">
-            © 2025 Juan Anibal Perez. Crafted with passion and attention to detail.
+            © 2025 Juan Anibal Perez. 
           </p>
         </div>
       </footer>
