@@ -510,6 +510,7 @@ function App() {
             {[
               { icon: Github, href: 'https://github.com/sistemasperez', label: 'GitHub' },
               { icon: Linkedin, href: 'https://www.linkedin.com/in/anibal-perez-guzman-3300b629/', label: 'LinkedIn' },
+              { icon: Twitter, href: 'https://twitter.com/juananibalperez', label: 'Twitter' }
             ].map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
@@ -530,7 +531,7 @@ function App() {
       <footer className="py-8 bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm border-t border-gray-200/50 dark:border-gray-700/50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600 dark:text-gray-300">
-            © 2025 Juan Anibal Perez. 
+            © 2025 Juan Anibal Perez. Crafted with passion and attention to detail.
           </p>
         </div>
       </footer>
