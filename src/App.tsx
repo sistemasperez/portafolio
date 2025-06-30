@@ -5,6 +5,8 @@ import {
   Code, 
   Gamepad2, 
   Smartphone, 
+  Brain,
+  BarChart,
   Mail, 
   Github, 
   Linkedin, 
@@ -68,7 +70,7 @@ function App() {
       title: 'Videojuego Educativo "Sumix"',
       category: 'Game Development',
       description: 'Videojuego interactivo desarrollado en Flash para el aprendizaje de la suma y resta de números enteros. Diseñado para reforzar habilidades matemáticas de forma divertida y efectiva.',
-      image: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751310956/Sumix_oup7to.png',
       tech: ['Unity', 'C#'],
       year: '2016',
       type: 'game'
@@ -77,7 +79,7 @@ function App() {
       title: 'Videojuego "La Rana Numérica"',
       category: 'game Development',
       description: 'Juego didáctico que utiliza un personaje animado (una rana) para enseñar operaciones básicas. El jugador debe realizar saltos estratégicos y capturar moscas en el orden correcto para alcanzar el número objetivo. Ideal para niños de primaria.',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751310283/IMG-20250119-WA0009_pkxyyo.jpg',
       tech: ['Construct 3'],
       year: '2016',
       type: 'web'
@@ -96,7 +98,7 @@ function App() {
       title: 'Plataforma Web y Videojuegos – Proyecto “Matemática Lúdica Digital”',
       category: 'Web Development',
       description: 'An immersive RPG with branching storylines, custom character progression, and multiplayer dungeons.',
-      image: 'https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751309861/MLD_cxicwh.png',
       tech: ['C#', 'Angular 2x', 'Multiplayer'],
       year: '2019',
       type: 'game'
@@ -111,10 +113,10 @@ function App() {
       type: 'web'
     },
     {
-      title: 'Videojuego “Regresa Firu” – Proyecto OEI',
+      title: 'Videojuego “Regresa Firu” – Organización de Estados Iberoamericanos',
       category: 'Game Desing Development',
       description: 'Juego educativo desarrollado para la Organización de Estados Iberoamericanos (OEI), orientado a mejorar la comprensión lectora en niños. Combina narrativa interactiva, estrategias de lectura y contenidos audiovisuales para lograr una experiencia inmersiva.',
-      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751310880/regresaFiru_fsu2hf.png',
       tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJS'],
       year: '2022',
       type: 'web'
@@ -135,7 +137,7 @@ function App() {
       title: 'Sistema de Gestión de Retiros COEHMS',
       category: 'Web Development',
       description: 'Plataforma para la organización de retiros y eventos, con funcionalidades para la gestión de habitaciones, reservas, pagos y análisis de participación. Incluye paneles de análisis (Analytics) para optimizar la toma de decisiones.',
-      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://res.cloudinary.com/dhwugyz9h/image/upload/v1751310631/Retiros_Coehms_m16wlp.png',
       tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJs'],
       year: '2022',
       type: 'web'
@@ -159,25 +161,44 @@ function App() {
 
   const services = [
     {
+      icon: Brain, // puedes usar un ícono de AI o Automatización
+      title: 'Automatización Inteligente con Agentes AI',
+      description:
+        'Desarrollo de soluciones inteligentes que automatizan procesos complejos usando agentes con capacidad de decisión, aprendizaje y adaptación. Ideal para transformar operaciones rutinarias en sistemas autónomos.',
+      skills: ['AI Agents', 'Workflow Automation', 'Python', 'RPA', 'OpenAI'],
+      color: 'from-indigo-500 to-blue-600'
+    },
+    {
       icon: Code,
-      title: 'Web Development',
-      description: 'Creating responsive, fast-loading websites and web applications using modern frameworks and technologies.',
-      skills: ['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'Next.js'],
+      title: 'Desarrollo Web y Apps Empresariales',
+      description:
+        'Creamos aplicaciones empresariales robustas y escalables que optimizan la eficiencia operativa. Desde sistemas de evaluación hasta plataformas administrativas, todo adaptado a tus procesos.',
+      skills: ['Next.js', 'React', 'Node.js', 'Tailwind', 'PostgreSQL'],
       color: 'from-purple-500 to-pink-500'
     },
     {
+      icon: Smartphone,
+      title: 'Aplicaciones Móviles',
+      description:
+        'Diseño y desarrollo de apps móviles nativas y multiplataforma con rendimiento fluido e interfaces intuitivas. Perfectas para llegar a tus usuarios donde sea que estén.',
+      skills: ['Flutter', 'React Native', 'iOS', 'Android', 'Firebase'],
+      color: 'from-cyan-500 to-blue-500'
+    },
+    {
       icon: Gamepad2,
-      title: 'Game Design & Development',
-      description: 'Designing engaging gameplay experiences and developing games across multiple platforms and engines.',
-      skills: ['Unity', 'Unreal Engine', 'C#', 'Game Design', '3D Modeling'],
+      title: 'Videojuegos con Propósito',
+      description:
+        'Diseño y desarrollo de videojuegos educativos y temáticos que combinan entretenimiento e impacto pedagógico. Ideales para proyectos escolares, institucionales y sociales.',
+      skills: ['Unity', 'Flash', 'Game Design', 'Narrativa Interactiva', 'Gamificación'],
       color: 'from-orange-500 to-red-500'
     },
     {
-      icon: Smartphone,
-      title: 'Mobile App Development',
-      description: 'Building native and cross-platform mobile applications with intuitive user interfaces and smooth performance.',
-      skills: ['React Native', 'Flutter', 'iOS', 'Android', 'App Store'],
-      color: 'from-cyan-500 to-blue-500'
+      icon: BarChart,
+      title: 'Sistemas de Análisis y Reportes',
+      description:
+        'Desarrollo de dashboards y herramientas de análisis personalizados que te ayudan a tomar decisiones basadas en datos reales en tiempo real.',
+      skills: ['Data Analytics', 'Dashboards', 'Chart.js', 'Supabase', 'SQL'],
+      color: 'from-green-500 to-emerald-500'
     }
   ];
 
