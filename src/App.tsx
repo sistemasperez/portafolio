@@ -274,21 +274,20 @@ function App() {
               Juan Anibal <span className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent">Perez</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Crafting digital experiences through web development, game design, and mobile applications
-            </p>
+              Transformamos ideas en experiencias Digitales Increibles en múltiples plataformas y tecnologías            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button
                 onClick={() => scrollToSection('projects')}
                 className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white rounded-xl font-medium transition-all duration-200 flex items-center gap-2 group shadow-lg shadow-purple-500/25 hover:shadow-xl hover:shadow-purple-500/30 hover:scale-105"
               >
-                View My Work
+                Ver mi trabajo
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-200" />
               </button>
               <button
                 onClick={() => scrollToSection('contact')}
                 className="px-8 py-4 border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:border-purple-600 hover:text-purple-600 dark:hover:border-purple-400 dark:hover:text-purple-400 rounded-xl font-medium transition-all duration-200 hover:scale-105 backdrop-blur-sm bg-white/50 dark:bg-gray-900/50"
               >
-                Get In Touch
+                Contáctame
               </button>
             </div>
           </div>
