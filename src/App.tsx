@@ -56,59 +56,105 @@ function App() {
 
   const projects = [
     {
-      title: 'Neon Runner',
-      category: 'Game Development',
-      description: 'A cyberpunk-themed endless runner game with dynamic lighting effects and procedural level generation.',
+      title: '📘  Sistema de Monitoreo de Proyectos Educativos',
+      category: 'Enterprise Platfform',
+      description: 'Plataforma integral para la gestión y seguimiento de proyectos educativos a nivel nacional. Permite administrar Distritos, Redes Educativas, Centros, Docentes y Directivos. Incluye herramientas de levantamiento de información mediante encuestas de acompañamiento pedagógico y evaluación docente.',
       image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Unity', 'C#', '3D Graphics'],
-      year: '2024',
+      tech: ['Net Core', 'C#'],
+      year: '2014',
       type: 'game'
     },
     {
-      title: 'TaskFlow Mobile',
-      category: 'Mobile Development',
-      description: 'A productivity app with AI-powered task prioritization and seamless cross-platform synchronization.',
+      title: 'Videojuego Educativo "Sumix"',
+      category: 'Game Development',
+      description: 'Videojuego interactivo desarrollado en Flash para el aprendizaje de la suma y resta de números enteros. Diseñado para reforzar habilidades matemáticas de forma divertida y efectiva.',
       image: 'https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React Native', 'TypeScript', 'AI/ML'],
-      year: '2024',
-      type: 'mobile'
+      tech: ['Unity', 'C#'],
+      year: '2016',
+      type: 'game'
     },
     {
-      title: 'Creative Studio Platform',
-      category: 'Web Development',
-      description: 'A collaborative platform for creative professionals with real-time editing and project management tools.',
+      title: 'Videojuego "La Rana Numérica"',
+      category: 'game Development',
+      description: 'Juego didáctico que utiliza un personaje animado (una rana) para enseñar operaciones básicas. El jugador debe realizar saltos estratégicos y capturar moscas en el orden correcto para alcanzar el número objetivo. Ideal para niños de primaria.',
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['React', 'Node.js', 'WebSocket'],
-      year: '2023',
+      tech: ['Construct 3'],
+      year: '2016',
+      type: 'web'
+    },
+    
+    {
+      title: 'Sistema de Gestión de Evaluaciones de Planes de Estudio',
+      category: 'Web Development',
+      description: 'Aplicación especializada para la evaluación de planes curriculares según criterios normativos y estándares de calidad educativa. Permite revisar, comparar y aprobar planes de estudio con base en parámetros definidos.',
+      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJs'],
+      year: '2018',
       type: 'web'
     },
     {
-      title: 'Mystic Realms',
-      category: 'Game Development',
+      title: 'Plataforma Web y Videojuegos – Proyecto “Matemática Lúdica Digital”',
+      category: 'Web Development',
       description: 'An immersive RPG with branching storylines, custom character progression, and multiplayer dungeons.',
       image: 'https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Unreal Engine', 'Blueprint', 'Multiplayer'],
-      year: '2023',
+      tech: ['C#', 'Angular 2x', 'Multiplayer'],
+      year: '2019',
       type: 'game'
     },
     {
-      title: 'FinanceTracker Pro',
-      category: 'Mobile Development',
-      description: 'Personal finance management app with smart categorization and investment tracking capabilities.',
+      title: 'Sistema de Evaluación Docente Universitaria',
+      category: 'Web Development',
+      description: 'Herramienta digital para la evaluación y retroalimentación continua de la práctica docente. Facilita la recolección de evidencias, análisis de desempeño y generación de informes personalizados.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Flutter', 'Dart', 'Firebase'],
-      year: '2023',
-      type: 'mobile'
+      tech: ['Angular 15', 'C#', 'Net Core', "SQL Server", "Azure"],
+      year: '2021',
+      type: 'web'
     },
     {
-      title: 'DevPortfolio Generator',
-      category: 'Web Development',
-      description: 'An automated portfolio generator for developers with customizable themes and GitHub integration.',
+      title: 'Videojuego “Regresa Firu” – Proyecto OEI',
+      category: 'Game Desing Development',
+      description: 'Juego educativo desarrollado para la Organización de Estados Iberoamericanos (OEI), orientado a mejorar la comprensión lectora en niños. Combina narrativa interactiva, estrategias de lectura y contenidos audiovisuales para lograr una experiencia inmersiva.',
       image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tech: ['Next.js', 'TypeScript', 'GitHub API'],
-      year: '2024',
+      tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJS'],
+      year: '2022',
       type: 'web'
-    }
+    },
+
+    {
+      title: 'Sistema de Gestión de Rifas y Pagos – COEHMS',
+      category: 'Web Development',
+      description: 'Aplicación diseñada para automatizar rifas institucionales, registro de participantes y control de pagos. Aporta transparencia, eficiencia y trazabilidad a los procesos administrativos de captación de fondos.',
+      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJs'],
+      year: '2022',
+      type: 'web'
+    },
+    
+
+    {
+      title: 'Sistema de Gestión de Retiros COEHMS',
+      category: 'Web Development',
+      description: 'Plataforma para la organización de retiros y eventos, con funcionalidades para la gestión de habitaciones, reservas, pagos y análisis de participación. Incluye paneles de análisis (Analytics) para optimizar la toma de decisiones.',
+      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Angular Js', 'Socket io', 'GitHub API', 'Azure', 'MongoDb', 'NodeJs'],
+      year: '2022',
+      type: 'web'
+    },
+    
+
+
+    
+    {
+      title: 'Geo X Ray – Sistema de Monitoreo Geoespacial con Inteligencia Artificial',
+      category: 'Web Development',
+      description: ' Plataforma avanzada de monitoreo geoespacial que utiliza inteligencia artificial para analizar y visualizar datos en tiempo real. Permite la hacer preguntas en Lenguaje natural y obtener respuestas de la distribución geografica de Negocios o lugares.',
+      image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
+      tech: ['Python', 'FastApi', 'OpenAi', 'Autogen', 'Azure', 'ArangoDb', 'NetworkX'],
+      year: '2025',
+      type: 'web'
+    },
+
+    
   ];
 
   const services = [
